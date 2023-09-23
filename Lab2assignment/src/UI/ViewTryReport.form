@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[500, 2389]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" pref="2500" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="2389" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="horizontalScrollBarPolicy" type="int" value="32"/>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[500, 458]"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[400, 2446]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="DateofLV" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PatientID1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DateofNA" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Allergies_y_n" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Medication_y_n" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Medicationyn" alignment="0" pref="2326" max="32767" attributes="0"/>
+                                  <Component id="SetDOLV" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="SetPatientID" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="SetDofNA" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="Allergiesyn" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="164" max="-2" attributes="0"/>
+                              <Component id="PatientScreen" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="FirstName" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="FNdesc" min="-2" pref="223" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="MiddleName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="LastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="MNdesc" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="LNDesc" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="EmailID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="ContactNum" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="EIDDesc" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="CNdesc" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="EmergencyContactname" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ECNamDesc" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+                                      <Component id="PersonalDet" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Gender" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DOB" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="SSN" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="EmergencyContactnum" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="SSNdesc" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="EconNumDesc" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="DOBdesc" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="GenderDesc" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="Vehiclenumdesc" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Vehiclecolourdesc" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Vehiclemodeldesc" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Vehicletypedesc" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="VTdes" alignment="0" pref="2387" max="32767" attributes="0"/>
+                                          <Component id="VMdes" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Vcolourdes" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="VNumdes" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="DLNum" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Drivername" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Expirydate" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Dateofbirth" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Vehicletype" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="DLnumdes" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                                                  <Component id="DNamedes" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                                                  <Component id="Vehicletypenum" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                      <Component id="DOBdesc1" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                                                      <Component id="Expirydatedes" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                                              <Component id="Vehicleregistrationdesc" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Areaname2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                                      <Component id="Areanamed1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Doornum2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Streetname2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Streetnamed1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Doornumd1" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="Dfn2" min="-2" pref="68" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                                      <Component id="DoctormailIDd1" min="-2" pref="193" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                                      <Component id="Doc1Dd1" min="-2" pref="193" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
+                                              <Component id="Address2" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="CorporateID2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="COIDd1" min="-2" pref="223" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                                              <Component id="Insurancedetails2" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="AddressID2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="PremiumID2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="DeductableID2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="TaxBenefitsID2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="SAVE2" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="DedIdd1" alignment="0" max="32767" attributes="0"/>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Component id="PreIDd1" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddIDd1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="Zipcode2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Country2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="State2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Cityname2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="108" pref="108" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="Citynamed1" alignment="0" min="-2" pref="199" max="-2" attributes="0"/>
+                                                  <Component id="Statenamed1" min="-2" pref="199" max="-2" attributes="0"/>
+                                                  <Component id="countryd1" min="-2" pref="199" max="-2" attributes="0"/>
+                                                  <Component id="Zipcoded1" min="-2" pref="199" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="Doctorphonenum2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="DoctormailID2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Departmentname2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Hospitalname2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Dln2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="DocID2" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="DocInfo2" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Departmentnamed1" min="-2" pref="193" max="-2" attributes="0"/>
+                                                  <Component id="Hospitalnamed1" min="-2" pref="193" max="-2" attributes="0"/>
+                                                  <Component id="Dfnd1" min="-2" pref="193" max="-2" attributes="0"/>
+                                                  <Component id="Dlnd1" min="-2" pref="193" max="-2" attributes="0"/>
+                                                  <Component id="Doctorphonenumd1" min="-2" pref="193" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="PatientScreen" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="PatientID1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SetPatientID" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="DateofLV" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SetDOLV" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="DateofNA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SetDofNA" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Allergies_y_n" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Allergiesyn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Medication_y_n" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Medicationyn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="PersonalDet" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="FirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="FNdesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="MiddleName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="MNdesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                      <Component id="LastName" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="EmailID" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="LNDesc" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="EIDDesc" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="ContactNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CNdesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="EmergencyContactname" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ECNamDesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="EmergencyContactnum" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EconNumDesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="SSN" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SSNdesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="DOB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DOBdesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Gender" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="GenderDesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Drivername" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DNamedes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="DLNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DLnumdes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Vehicletype" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Vehicletypenum" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Expirydatedes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Expirydate" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Dateofbirth" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DOBdesc1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="Vehicleregistrationdesc" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Vehicletypedesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VTdes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Vehiclemodeldesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VMdes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Vehiclecolourdesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Vcolourdes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Vehiclenumdesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VNumdes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="Address2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="Doornum2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Doornumd1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="Streetname2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="Streetnamed1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Areaname2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Areanamed1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Cityname2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Citynamed1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="State2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Statenamed1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Country2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="countryd1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Zipcode2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Zipcoded1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="DocInfo2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="DocID2" pref="53" max="32767" attributes="0"/>
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Dfn2" alignment="3" pref="53" max="32767" attributes="0"/>
+                                  <Component id="Doc1Dd1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="DoctormailIDd1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Departmentnamed1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Dln2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Hospitalnamed1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Hospitalname2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Departmentname2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Dfnd1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="DoctormailID2" min="-2" max="-2" attributes="0"/>
+                          <Component id="Dlnd1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Doctorphonenum2" min="-2" max="-2" attributes="0"/>
+                          <Component id="Doctorphonenumd1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Insurancedetails2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="CorporateID2" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="COIDd1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="AddressID2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AddIDd1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PremiumID2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PreIDd1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="DeductableID2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="DedIdd1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Component id="TaxBenefitsID2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="SAVE2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="446" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="PatientScreen">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PatientDetails"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PatientID1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PatientID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="DateofLV">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DateofLastVisit:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="DateofNA">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DateofNextAppointment:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Allergies_y_n">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Allergies(yes/no):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Medication_y_n">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Medication(yes/no):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="SetPatientID">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="SetDOLV">
+            </Component>
+            <Component class="javax.swing.JTextField" name="SetDofNA">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Allergiesyn">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Medicationyn">
+            </Component>
+            <Component class="javax.swing.JLabel" name="FirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FirstName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="MiddleName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="MiddleName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="LastName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="EmailID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EmailID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ContactNum">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ContactNumber:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="EmergencyContactname">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EmergencyContactName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="EmergencyContactnum">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EmergencyContactNum:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="SSN">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="SSN:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="DOB">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DOB:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Gender">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Gender:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="FNdesc">
+            </Component>
+            <Component class="javax.swing.JTextField" name="MNdesc">
+            </Component>
+            <Component class="javax.swing.JTextField" name="LNDesc">
+            </Component>
+            <Component class="javax.swing.JTextField" name="EIDDesc">
+            </Component>
+            <Component class="javax.swing.JTextField" name="CNdesc">
+            </Component>
+            <Component class="javax.swing.JTextField" name="ECNamDesc">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ECNamDescActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="EconNumDesc">
+            </Component>
+            <Component class="javax.swing.JTextField" name="SSNdesc">
+            </Component>
+            <Component class="javax.swing.JTextField" name="DOBdesc">
+            </Component>
+            <Component class="javax.swing.JTextField" name="GenderDesc">
+            </Component>
+            <Component class="javax.swing.JLabel" name="PersonalDet">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PersonalDetails"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Drivername">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DriverName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="DLNum">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DriverslicenseNumber:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Vehicletype">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="VehicleType:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Expirydate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ExpiryDate:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Dateofbirth">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DOB:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="DNamedes">
+            </Component>
+            <Component class="javax.swing.JTextField" name="DLnumdes">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Vehicletypenum">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Expirydatedes">
+            </Component>
+            <Component class="javax.swing.JTextField" name="DOBdesc1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="Vehicletypedesc">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="VehicleType:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Vehiclemodeldesc">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="VehicleModel:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Vehiclecolourdesc">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vehiclecolour:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Vehiclenumdesc">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="VehicleNumber:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Vehicleregistrationdesc">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vehicleregistration"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="VTdes">
+            </Component>
+            <Component class="javax.swing.JTextField" name="VMdes">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Vcolourdes">
+            </Component>
+            <Component class="javax.swing.JTextField" name="VNumdes">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Driver Details"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Address2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Address"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Doornum2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DoorNum:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Streetname2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="StreetName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Areaname2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="AreaName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Cityname2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CityName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="State2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="State:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Country2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Country:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Zipcode2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Zipcode:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="Doornumd1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Streetnamed1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Areanamed1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Citynamed1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Statenamed1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="countryd1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Zipcoded1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="DocInfo2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Doctorinformation"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="DocID2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DoctorID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Dfn2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FirstName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Dln2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="LastName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Hospitalname2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="HospitalName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Departmentname2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DepartmentName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="DoctormailID2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DoctormailID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Doctorphonenum2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Doctorphonenum:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="Doc1Dd1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Dfnd1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Dlnd1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Hospitalnamed1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Departmentnamed1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="DoctormailIDd1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="Doctorphonenumd1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="Insurancedetails2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Insurancedetails"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="CorporateID2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CorporateID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="AddressID2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Address:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PremiumID2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Premium:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="DeductableID2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Deductable:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TaxBenefitsID2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="TaxBenefits:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="SAVE2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="SAVE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="COIDd1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="AddIDd1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="PreIDd1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="DedIdd1">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

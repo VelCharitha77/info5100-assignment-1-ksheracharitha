@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Vehiclenumdesc" min="-2" max="-2" attributes="0"/>
+                          <Component id="Vehiclecolourdesc" min="-2" max="-2" attributes="0"/>
+                          <Component id="Vehiclemodeldesc" min="-2" max="-2" attributes="0"/>
+                          <Component id="Vehicletypedesc" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="VTdes" alignment="0" pref="257" max="32767" attributes="0"/>
+                          <Component id="VMdes" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Vcolourdes" max="32767" attributes="0"/>
+                          <Component id="VNumdes" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                      <Component id="Vehicleregistrationdesc" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Component id="Vehicleregistrationdesc" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Vehicletypedesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VTdes" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Vehiclemodeldesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VMdes" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Vehiclecolourdesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Vcolourdes" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Vehiclenumdesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VNumdes" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="95" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Vehicletypedesc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VehicleType:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Vehiclemodeldesc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VehicleModel:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Vehiclecolourdesc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehiclecolour:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Vehiclenumdesc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VehicleNumber:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="VTdes">
+    </Component>
+    <Component class="javax.swing.JTextField" name="VMdes">
+    </Component>
+    <Component class="javax.swing.JTextField" name="Vcolourdes">
+    </Component>
+    <Component class="javax.swing.JTextField" name="VNumdes">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Vehicleregistrationdesc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicleregistration"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
